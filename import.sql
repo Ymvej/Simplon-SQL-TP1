@@ -27,7 +27,7 @@ CREATE TABLE client_0(
     PRODUCT_TYPE VARCHAR(255),
     PRODUCT_FAMILY VARCHAR(255),
     ITEM_PRICE VARCHAR(255),
-    `KEY` VARCHAR(255)
+    `KEY` VARCHAR(255) -- backtick pour escape
 );
 LOAD DATA LOCAL INFILE '/home/samuel/Projects/Cours/SQL/SQLTP/TP1/Simplon-SQL-TP1/Base_eval.csv' INTO TABLE client_0 
 FIELDS TERMINATED BY ';'
